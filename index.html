@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- <meta http-equiv="refresh" content="2"> -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi step form</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="./assets/images/favicon-32x32.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="main">
+        <div class="container">
+            <!-- left side -->
+            <div class="left">
+                <!-- <img src="./assets/images/bg-sidebar-desktop.svg" alt=""> -->
+                <div class="content">
+                    <div id="left">
+                        <div class="circle1">1</div><br>
+                        <div class="circle">2</div><br>
+                        <div class="circle">3</div><br>
+                        <div class="circle">4</div><br>
+                    </div>
+                    <div id="right">
+                        <h5>STEP 1</h5>
+                        <span>YOUR INFO</span><br><br>
+                        <h5>STEP 2</h5>
+                        <span>SELECT PLAN</span><br><br>
+                        <h5>STEP 3</h5>
+                        <span>ADD-ONS</span><br><br>
+                        <h5>STEP 4</h5>
+                        <span>SUMMARY</span><br><br>
+                    </div>
+
+                </div>
+            </div>
+            <!-- right side / main content -->
+            <div class="right">
+                <h1>Personal info </h1>
+                    <p>Please provide your name, email address, and phone number.</p>
+                    <br>
+                    <form action="/submit" method="get" >
+                        <label for="name"alt="required"*>Name</label><br>
+                        <input type="text" placeholder="e.g Stephen king" required**>
+                        <br><br>
+                        <label for="Email" alt="required"*>Email Address</label><br>
+                        <input type="email" placeholder="e.g stephenking@gmail.com" required**>
+                        <br><br>
+                        <label for="Phone number" alt="required"*>Phone Number</label><br>
+                        <input type="tel" placeholder="e.g +123 4567 890" required**>
+                    </form>
+                    <button type="submit" id="btn" name="button" required**> Next Step</button>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+<script>
+</script>
+
+</html>
